@@ -37,16 +37,19 @@
         </div>
       </div>
     </div>
-    <div ng-controller="LineCtrl">
+    <div ng-controller="healthCtrl">
     <canvas id="pie" class="chart chart-pie"
   chart-data="data" chart-labels="labels">
 </canvas>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+    <script src="bower_components/Chart.js/Chart.min.js"></script>
     <script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
+
     <script src="app.js"></script>
     <script src="healthCtrl.js"></script>
+    <script src="hsrvc.js"></script>
 
 
 </body>
